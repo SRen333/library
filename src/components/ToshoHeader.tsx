@@ -17,6 +17,7 @@ import {
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
+// ハンバーガーメニュー
 const menu = [
   { title: "ホーム", icon: Home, address: "/" },
   { title: "マイブック", icon: BookIcon, address: "/myBook" },
